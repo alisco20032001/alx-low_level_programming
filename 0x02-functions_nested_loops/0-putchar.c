@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - print _putchar-print alph
- * 
+ * _putchar - prints alphbet
  * Return: 0
  */
 
