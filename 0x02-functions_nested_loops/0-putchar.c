@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _putchar - print the alphabet
- *
+ * main - Entry point
  * Return: 0
  */
-int main(void);
+
+int main(void)
 
 {
 
