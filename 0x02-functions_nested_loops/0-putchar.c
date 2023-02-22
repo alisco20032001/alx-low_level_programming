@@ -1,9 +1,13 @@
 #include "main.h"
+
 /**
- * _putchar -  print the alphabet
+ * _putchar - print the alphabet
+ *
  * Return: 0
  */
-int main(void) {
+int main(void)
+
+{
 
 	_putchar('_');
 	_putchar('p');
