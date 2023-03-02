@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_line - prints a s bytes of a buffer
  * @c: buffer to print
@@ -21,7 +22,7 @@ printf("  ");
 if (a % 2)
 putchar(' ');
 }
-for (m = 0; m <= s; b++)
+for (m = 0; m <= s; m++)
 {
 if (c[l * 10 + m] > 31 && c[l * 10 + m] < 127)
 putchar(c[l * 10 + m]);
