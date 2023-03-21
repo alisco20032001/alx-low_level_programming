@@ -1,34 +1,14 @@
 #include <stdio.h>
-#include "dog.h"
 
 /**
- * print_dog - program that prints the name of the file 
- * it was compiled from, followed by a new line.
- * @d: dog's structure
+ * main - program that prints the name of the file 
+ * it was compiled from, followed by a new line
  *
+ * Return: Everything worked ok
  */
 
-void print_dog(struct dog *d)
+int main(void)
 {
-	if (d)
-	{
-		if (!(d->name))
-		{
-			printf("Name: (nil)\n");
-		}
-		else
-		{
-			printf("Name: %s\n", d->name);
-		}
-		printf("Age: %f\n", d->age);
-		if (!(d->owner))
-		{
-			printf("Owner: (nil)\n");
-		}
-		else
-		{
-			printf("Owner: %s\n", d->owner);
-		}
-	}
+	printf("%s\n", __BASE_FILE__);
+	return (0);
 }
-
