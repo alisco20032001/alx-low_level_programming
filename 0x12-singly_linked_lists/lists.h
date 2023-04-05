@@ -1,5 +1,5 @@
-#ifndef  MAIN_H_
-#define  MAIN__H
+#ifndef  LISTS_H
+#define  LISTS_H
 #include <stdio.h>
 
 
@@ -27,4 +27,4 @@ void free_list(list_t *head);
 
 char *_strdup(const char *str);
 
-#endif
+#endif /* LISTS_H */
