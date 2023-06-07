@@ -17,6 +17,7 @@ int prime2(int x, int y)
 }
 /**
  * is_prime_number - function that returns that check a prime number
+ *@n: number integer
  * Return: success 1.
  */
 int is_prime_number(int n)
