@@ -1,4 +1,4 @@
-#define "main.h"
+#include "main.h"
 
 /**
  * _puts_recursion - this is a function that Prints a
