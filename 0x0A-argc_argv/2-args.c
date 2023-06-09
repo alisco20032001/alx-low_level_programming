@@ -2,7 +2,7 @@
 
 
 /**
- * int main - program that prints all arguments it receives
+ * main - program that prints all arguments it receives
  * @argc: number of argument
  * @argv: array name
  * Return: 0

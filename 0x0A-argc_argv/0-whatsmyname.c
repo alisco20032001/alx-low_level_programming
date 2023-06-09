@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * int_main - a program that prints the number of
+ *_main - a program that prints the number of
  * arguments passed into it.
  * @argc: number of argument
  * @argv: array name
