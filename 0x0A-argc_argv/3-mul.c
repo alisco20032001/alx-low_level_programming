@@ -11,22 +11,19 @@
 
 int main(int argc, char *argv[])
 {
+	int main(int argc, char **argv)
+{
 	int a, b;
 
-	if (argc == 1 || argc == 2)
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		b = 1;
 
-		for (a = 1; a < 3; a++)
-			b *= atoi(argv[a]);
-
-		printf("%d\n", b);
-	}
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
+	printf("%d\n", a * b);
 
 	return (0);
 }
