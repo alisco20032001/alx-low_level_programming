@@ -1,28 +1,10 @@
 #include "main.h"
-/**
- * _strstr - function
- * @haystack: input
- * @needle: input
- * Return:  always on success 0 
- */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
 char *_strstr(char *haystack, char *needle)
 {
-	for (; *haystack != '\0'; haystack++)
-	{
-		char *n = haystack;
-		char *m = needle;
-
-		while (*n == *p && *m != '\0')
-		{
-			n++;
-			m++;
-		}
-
-		if (*m == '\0')
-			return (haystack);
-	}
-
-	return (0);
+    return strstr(haystack, needle);
 }
-
-
