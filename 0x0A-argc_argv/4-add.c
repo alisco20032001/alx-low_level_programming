@@ -7,31 +7,34 @@
  *
  * Return: 0
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int a, b, sum = 0;
-	char *flag;
+	int a, b, length, sum;
+	char *ptr;
 
 	if (argc < 2)
-	{
 		printf("0\n");
-		return (0);
-	}
-
-	for (a = 1; argv[a]; a++)
+	else
 	{
-		b = strtol(argv[a], &flag, 10);
-		if (*flag)
+		sum = 0;
+		for (a = 1; a < argc; a++)
 		{
-			printf("Error\n");
-			return (1);
-		}
-		else
-		{
-			sum += b;
-		}
-	}
-	printf("%d\n", sum);
+			ptr = argv[a];
+			length = strlen(ptr);
 
+			for (b = 0; b < length; b++)
+			{
+				if (isdigit(*(ptr + b)) == 0)
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+
+			sum += atoi(argv[a]);
+		}
+
+	printf("%d\n", sum);
+	}
 	return (0);
 }
