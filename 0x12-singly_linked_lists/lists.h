@@ -1,4 +1,4 @@
-ifndef LISTS_H
+#ifndef LISTS_H
 #define LISTS_H
 #include <stdlib.h>
 
@@ -7,9 +7,7 @@ ifndef LISTS_H
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
- *
  * Description: singly linked list node structure
- *              for Holberton project
  */
 typedef struct list_s
 {
